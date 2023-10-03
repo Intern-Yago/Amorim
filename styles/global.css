@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+:root{
+    --blue:#101a38;
+    --golden: #cca352;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.central{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    overflow-x: hidden;
+    font: 16px/28px sans-serif;
+}
+#inicio, #principal, #servicos{
+    scroll-margin-top: 130px;
+    /*scroll-margin-top: 330px;*/
+}
+#missao{
+    scroll-margin-top: 140px;
+}

@@ -1,0 +1,28 @@
+main{
+    width: 100vw;
+}
+#inicio{
+    margin-top: 120px;
+    padding: 0.75rem;
+}
+/*
+#inicio img{
+    width: 250px;
+
+}
+#inicio p{
+    width: 50%;
+} */
+#missao{
+    margin-top: 50px;
+}
+
+.central{
+    margin-top: 50px;
+}
+@media (max-width:580px){
+    #inicio{
+        flex-direction: column;
+        padding: 0;
+    }
+}
