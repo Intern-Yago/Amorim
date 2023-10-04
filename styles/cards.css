@@ -13,7 +13,7 @@
     margin: 15px;
     height:90%;
 }
-.card a{
+.card span.a{
     text-decoration: none;
     cursor: default;
     display:flex;
@@ -43,6 +43,8 @@
     transition: .2s;
     display: flex;
     align-items: center;
+    flex-direction: row;
+    color: black;
 }
 .card .pointer img{
     height: 10px;
@@ -50,5 +52,11 @@
     margin-right: 5px;
 }
 .card .pointer:hover{
+    color: var(--golden);
+}
+.card .read{
+    color: #4b4a59;
+}
+.card .read:hover{
     color: var(--golden);
 }
